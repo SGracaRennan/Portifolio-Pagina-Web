@@ -1,9 +1,11 @@
 <html>
     <head>
         <title>Portifólio - Rennan Silva da Graça</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
+        <script src="js/script.js"></script>
         <div id = "titulo">
         <h1>Rennan Silva da Graça</h1>
         <h2>Estudante de Engenharia de Software<h2>
@@ -11,17 +13,96 @@
         </div>
 
         <div id = "topicos">
-            <button>Formação</button>
-            <button>Habilidades</button>
-            <button>Projetos</button>
-            <button>Experiência</button>
-            <button>Cursos</button>
-            <button>Sobre Mim</button>
-            <button>Contato</button>
+            <button onmouseover= "mostrarConteudo('formacao')">Formação</button>
+            <button onmouseover= "mostrarConteudo('habilidades')">Habilidades</button>
+            <button onmouseover= "mostrarConteudo('projetos')">Projetos</button>
+            <button onmouseover= "mostrarConteudo('experiencia')">Experiência</button>
+            <button onmouseover= "mostrarConteudo('cursos')">Cursos</button>
+            <button onmouseover= "mostrarConteudo('contato')">Contato</button>
+            <button onmouseover= "mostrarConteudo('sobre_mim')">Sobre Mim</button>
         </div>
 
+        <div id="formacao" class = "conteudo">
+            <h2>Formação</h2>
+            <ul><li>BACHARELADO EM ENGENHARIA DE SOTWARE (2025 — atualmente)<br>
+            Estácio — 4 Semestre (Previsão de Conclusão: 07/2028)</li>
+            <br>
+            <li>ENSINO MÉDIO INTEGRADO (2022 — 2024)<br>
+            CEFFA CEA Rei Alberto I — Completo<br>
+            PPJ (Tese de Conclusão do Curso Técnico Em Agropecuária): "Produção de Ervas Medicinais Desidratadas"</li>
+            </ul>
+        </div>
+        
+        <div id = "habilidades" class = "conteudo">
+            <h2>Habilidades de desenvolvimento</h2>
+            <p>Tecnologias Web:
+            HTML 
+            CSS 
+            JavaScript
+
+            Linguagens de Programação:
+            C
+            Java
+            Python
+
+            Banco de Dados:
+            SQL - Modelagem de Dados e Mapeamento Relacional
+            (Até então familiarizo mais com o PostgreSQL)
+
+            Controle de Versão:
+            Git e GitHub
+            </p>
+        </div>
+
+        <div id = "projetos" class = "conteudo">
+            <h2>Projetos</h2>
+            <p>Portifólio Web — 09/2026
+            (inserir link de redirecionamento)
+            Biblioteca Java — 07/2026
+            (inserir link de redirecionamento)
+            </p>
+        </div>
+
+        <div id  = "experiencia" class = "conteudo">
+            <h2>Experiência</h2>
+            <p>EXCLUSIVAMENTE ACADÊMICA — Estou em busca da primeira experiência profissional em tecnologia,
+            pois até onde tenho estudado, tenho visto e aplicado em ambiente acadêmico os conhecimentos 
+            de desenvolvimento — web (HTML, CSS e JavaScript), back-end (C, Python e Java) e Banco de 
+            Dados (PostgreSQL); Além de conhecimentos mais gerais inerentes a tecnologia de informação, 
+            como os processos de desenvolvimento de softwares, gerencia de configuração, indicadores de
+            desempenho em TI e arquitetura de sistemas, computadores e redes.</p>
+        </div>
+
+        <div id = "cursos" class = "conteudo">
+                <h2>Cursos</h2>
+                <p>Inglês Básico e Intermediário
+                CEPED — Carga horária: 50h | Concluido em 07/2026
+                </p>
+        </div>
+
+        <div id = "contato" class = "conteudo">
+            <h2>Contato</h2>
+            <p>E-MAIL: rsgmailbox@gmail.com<br>TELEFONE: (22) 98134-0536
+            </p>
+        </div>
+        
         <div id = "sobre_mim" class = "conteudo">
-            <h2>Sobre mim</h2> 
+            <h2>Sobre mim</h2>
+            <p>Sou um jovem estudante de engenharia de software.
+            Nascido no dia 12 de junho de 2006, em Nova Friburgo-RJ, atualmente resido em Sumidouro, um pequeno município 
+            no interior do Estado do Rio de Janeiro em que vivo desde sempre.
+            Iniciei o processo de graduação em Engenharia de Software assim que me formei no Ensino Médio, em 2024, e tive a felicidade de ingressar na Estácio através do PROUNI com uma bolsa integral.   
+            Nunca atuei profissionalmente na área de TI, porém me considero um entusiasta da tecnologia que está na busca
+            de uma oportunidade para praticar aquilo que venho aprendendo no curso - pois a teoria do ambiente acadêmico
+            nunca deve andar em paralelo com as reais exigências do mercado e negócios.
+            Mais pessoalmente falando sobre mim, sou um agricultor familiar e técnico agropecuária na propriedade rural da minha família.
+            Dentre os meus gostos, eu tenho uma grande afinidade e conhecimento de hardware, por incluso costumo prestar auxílio técnico
+            para computadores aonde vejo a oportunidade. Gosto bastante de utilizar sistemas no geral, tanto que minha vontade de cursar
+            engenharia de software foi despertada a partir do desejo de compreender como funcionam, como fazer e como ter um sistema de 
+            sucesso: saber que há uma área de conhecimento que alinha-se perfeitamente com esse desejo é muito gratificante, pois terei
+            a oportunidade de realizar um sonho pessoal alinhado às metas profissionais. 
+         </p> 
+        </div>
     </body>
 
 

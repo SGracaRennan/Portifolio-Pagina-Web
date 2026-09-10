@@ -1,0 +1,16 @@
+.conteudo {
+    display: none;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    ;
+}
+
+button{
+    transition: 0.3s;
+}
